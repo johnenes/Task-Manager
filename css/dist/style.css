@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'josefin sans', sans-serif;
+  color: #777;
+}
+
+.wrapper {
+  width: 75%;
+  max-width: 500px;
+  margin: 20px auto;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  border: 1px solid lightgray;
+  background-color: #f5ffc9;
+  height: fit-content;
+}
+
+header {
+  text-align: center;
+  background-color: #a86464;
+}
+
+header h1 {
+  padding: 20px 0 20px 0;
+  color: #555;
+}
+
+header #search-list input {
+  padding: 10px 0 10px 6px;
+  margin: 20px auto;
+  width: 250px;
+}
+
+.note-list ul li input {
+  display: none;
+  padding: 5px 0;
+  width: 70%;
+  margin: 5px auto 0 auto;
+}
+
+#add-note {
+  padding: 60px 0;
+}
+
+#hide-list {
+  margin: 20px;
+}
+
+#hide-list label {
+  padding: 5px 10px;
+  margin: 10px;
+  border-bottom: 1px solid #777;
+  user-select: none;
+}
+
+#list p {
+  padding: 5px 10px;
+  margin: 20px;
+  list-style: none;
+  border-bottom: 1px solid #f3dfb3;
+}
+
+ul {
+  list-style: none;
+}
+
+#hide-list label:hover {
+  background-color: #efefef;
+}
+
+#hide-list input[type='checkbox'] {
+  display: none;
+}
+
+input {
+  outline: none;
+  border: 1px solid #777;
+  color: #777;
+  height: 20px;
+}
+
+input:focus {
+  border: 1px solid #0ca00c;
+}
+
+form {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#add input {
+  border-radius: 4px;
+}
+
+#add input[type='text'] {
+  padding: 10px 0 10px 0;
+  width: 250px;
+}
+
+#add input[type='submit'] {
+  padding: 10px 0 10px 0;
+  width: 70px;
+  height: 40px;
+  background-color: #6B8E23;
+  color: #fff;
+}
+
+#add input[type='submit']:hover {
+  background-color: #7c9f34;
+}
+
+.changeBg {
+  background-color: yellow;
+}
+
+.changeBg2 {
+  background-color: maroon;
+}
+
+.changeFt2 {
+  font-size: 20px;
+  font-style: bold;
+}
+
+.changeFt {
+  font-size: 30px;
+  font-style: italic;
+}
+
+p.text {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.fa-xmark {
+  padding: 10px 10px;
+  color: red;
+}
+
+p {
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */

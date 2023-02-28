@@ -1,0 +1,7 @@
+from the input tag 
+wehn you add text into the textspace and click add then the text should be added and appear
+among the list task in the above first to third note.
+the text should carry the same design as of the remaining notes
+goodluck
+
+the new list element should become the memeber of exit element
